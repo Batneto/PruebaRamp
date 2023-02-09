@@ -19,7 +19,7 @@ if(opcion==1){                        //todo saca los 3 log si se cumple,esta "m
         if( (num1%2!=0 && num1%25 == 0)&&(num2%2 != 0 && num2%25 == 0) ){
             console.log(" Los numeros son impares y multiplos de 25");
             }
-        if( (num1%2==0 && num1%25 != 0)&&(num2%2 == 0 && num2%25 != 0)){
+        if( (num1%2==0 && num1%25 != 0)&&(num2%2 == 0 && num2%25 != 0)){      //todo faltan no if de los casos particules de los fallos este solo saca si las 4 opciones se cumple
             console.log("Ninguno de sus numeros es multiplo de 25 y los dos son pares");
         }
 }
