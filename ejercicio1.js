@@ -3,9 +3,8 @@
 
 var opcion=parseInt( prompt("Quiere la opcion 1 o la opcion 2 (introduzca el numero que quiere)"))
 
-while( !(opcion==1) || !(opcion==2) ){     //todo No se por que se hace el bucle infinito cuando opcion == 1  es true deberia cambiarse a false y salir del bucle no se que pasa
-    opcion=prompt("Quiere la opcion 1 o la opcion 2 (introduzca el numero que quiere)")
-    }
+
+
 
 if(opcion==1){
     var num1=parseInt(prompt("Introduzca el primer numero: "))
@@ -55,6 +54,8 @@ if(opcion==2){
 
 
 
+            //todo idea switch opcion 2 no se por que no funciona
+
         //    switch (primeraLetra,ultimaLetra) { 
 
         //         case (primeraLetra=="s"):
@@ -73,7 +74,7 @@ if(opcion==2){
 
 
 // if(opcion==2){
-//     var palabra=prompt("Introduzca una palabra: ")  //* NO sacar si la s es mayus o min 
+//     var palabra=prompt("Introduzca una palabra: ")  //todo Primer planteamiento opcion 2
 
 //             if(palabra[0]=="s"|| palabra[0]=="S"){
 //                 console.log("Tu palabra empieza por s");
