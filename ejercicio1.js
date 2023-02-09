@@ -6,7 +6,7 @@ var opcion=parseInt( prompt("Quiere la opcion 1 o la opcion 2 (introduzca el num
 
 
 
-if(opcion==1){
+if(opcion==1){                        //todo saca los 3 log si se cumple 
     var num1=parseInt(prompt("Introduzca el primer numero: "))
     var num2=parseInt(prompt("Introduzca el segundo numero: "))
 
@@ -16,6 +16,9 @@ if(opcion==1){
         if( num2%2 != 0 && num2%25 == 0){
             console.log( " El numero 2 es impar y multiplo de 25");
         }
+        if( (num1%2!=0 && num1%25 == 0)&&(num2%2 != 0 && num2%25 == 0) ){
+            console.log(" Los numeros son impares y multiplos de 25");
+            }
 }
 
 if(opcion==2){
