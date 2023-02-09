@@ -15,7 +15,7 @@ for( let i=0;i<frase.length;i++){
         cont++
     }
 }
-console.log(cont);
+console.log("Su frase contine "+ cont +" palabras");
 
 
 
