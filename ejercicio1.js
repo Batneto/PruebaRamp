@@ -6,7 +6,7 @@ var opcion=parseInt( prompt("Quiere la opcion 1 o la opcion 2 (introduzca el num
 
 
 
-if(opcion==1){                        //todo saca los 3 log si se cumple 
+if(opcion==1){                        //todo saca los 3 log si se cumple,esta "mal"
     var num1=parseInt(prompt("Introduzca el primer numero: "))
     var num2=parseInt(prompt("Introduzca el segundo numero: "))
 
