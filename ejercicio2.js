@@ -3,12 +3,12 @@
 
 
 //! Ejercicio sin Plus
-            //todo no funciona para el caso particular de empezar con un espacio 
+            
 
 var frase=prompt("Introduzca una frase ")
 var cont=0
 var fraseArray=[]
-var huecoInicio=fraseArray[0]
+// var huecoInicio=fraseArray[0] //todo no se por que con esta variable no funciona 
 var huecoFinal=frase[fraseArray.length-1]
 
 for( let i=0;i<frase.length;i++){
@@ -20,11 +20,11 @@ for( let i=0;i<frase.length;i++){
 
 for( let i=0;i<fraseArray.length;i++){
 
-    if(huecoInicio==" "){
-        frase.shift();
+    if(fraseArray[0]==" "){
+        fraseArray.shift();
     }
     if(huecoFinal==" "){
-        frase.pop();
+        fraseArray.pop();
     }
 
     if(fraseArray[i]==" "){
