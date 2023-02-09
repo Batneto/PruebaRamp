@@ -3,15 +3,31 @@
 
 
 //! Ejercicio sin Plus
+            //todo no funciona para el caso particular de empezar con un espacio 
 
 var frase=prompt("Introduzca una frase ")
 var cont=0
-
-
+var fraseArray=[]
+var huecoInicio=fraseArray[0]
+var huecoFinal=frase[fraseArray.length-1]
 
 for( let i=0;i<frase.length;i++){
+    fraseArray.push(frase[i])
+}
 
-    if(frase[i]==" "){
+
+// console.log(fraseArray);
+
+for( let i=0;i<fraseArray.length;i++){
+
+    if(huecoInicio==" "){
+        frase.shift();
+    }
+    if(huecoFinal==" "){
+        frase.pop();
+    }
+
+    if(fraseArray[i]==" "){
         cont++
     }
 }
